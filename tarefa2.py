@@ -6,5 +6,5 @@ st.caption('Lavínia Franqueiro')
 df = pd.read_csv('carprice.csv', sep =',')
 st.dataframe(df)
 
-chart_data = df[['make', 'wheel-base']]
-st.bar_chart(chart_data, X = "make", Y = "wheel-base")
+chart_data = df[['symboling', 'wheel-base']]
+st.bar_chart(chart_data, X = "symboling", Y = "wheel-base")
